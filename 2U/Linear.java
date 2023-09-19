@@ -1,0 +1,7 @@
+/**
+ * Linear
+ */
+public class Linear {
+
+    
+}
