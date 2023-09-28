@@ -3,12 +3,12 @@
 public class Basics {
     public static void main(String[] args) {
         
-        String s1="dhshjdssfhello";
-        String str1=new String("hello");
-        String s2="hello";
-        String str2=new String("hello");
+        // String s1="dhshjdssfhello";
+        // String str1=new String("hello");
+        // String s2="hello";
+        // String str2=new String("hello");
 
-        System.out.println(s2.concat(s1));
+        // System.out.println(s2.concat(s1));
 
         // System.out.println(s1==s2);
         // System.out.println(s1==str1);
@@ -30,6 +30,11 @@ public class Basics {
         //  System.out.println(s2);
         //  System.out.println(s1);
         //  str1=str1+str2;
+
+        char ch='a';
+        char ch1='A';
+        System.out.println((int)ch);
+        System.out.println((int)ch1);
     }
     
 }
