@@ -23,5 +23,9 @@ public class String_practice {
         // System.out.println(s1.equals(str2));
 
         // System.out.println(s1.concat(str2));
+
+        // String str="hello";
+        // System.out.println(str.indexOf("ello"));
+
     }
 }

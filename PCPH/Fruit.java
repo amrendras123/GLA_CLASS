@@ -15,15 +15,11 @@ public class Fruit {
         }else{
             System.out.println("NO");
         }
-
-
-        
+ 
     }
     public static boolean check(int weight){
-        if(weight==2){
-            return false;
-        }
-        if(weight%2==0){
+        
+        if(weight%2==0&&weight>2){
             return true;
         }
         return false;
