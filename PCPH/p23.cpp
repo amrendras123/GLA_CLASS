@@ -3,7 +3,9 @@
 using namespace std;
 int main() {
 
-	int arr[]={12,13,2,4,5,6};
+   int arr[]={12,13,2,4,5,6};
+   int size=sizeof(arr)/sizeof(arr[0]);
+//    printf("%d ",size);
    int n=sizeof(arr);
    int i=0;
 	for(i=0;i<n-1;i++){
