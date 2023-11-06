@@ -7,8 +7,12 @@ public class StudentClient {
         Scanner sc=new Scanner(System.in);
         
       
-        Student raj=new Student("abc",1);
+        // Student s1=new Student();
+        //  s1.fun();
+        //  Student.fun();
+        Student raj=new Student("raj",1);
         raj.introduce();
+
         // raj.name="abc";
         // raj.roll_no=1;
         // raj.address="gla";
@@ -16,6 +20,9 @@ public class StudentClient {
         // Student aman=new Student();
         // aman.introduce();
         // Student s1=new Student();
+
+    }
+    public static void fib(){
 
     }
 }

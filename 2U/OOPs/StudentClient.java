@@ -7,6 +7,7 @@ public class StudentClient {
         
         Student raj=new Student("raj",1);
         raj.introduce();
+        Student.fun();
         // raj.name="abc";
         // raj.fun();
         // Student s1=new Student("aman",1,"gla");

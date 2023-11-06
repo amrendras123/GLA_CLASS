@@ -3,23 +3,28 @@
  */
 public class Student {
 
-    String name;
+   String name;
     int roll_no;
     String address;
+    static int count;
 
+ public Student(){
 
-   
-    public Student(String name1,int roll_no1){
-        name=name1;
-    roll_no=roll_no1;
-    }
+ }
+ public Student(String name,int roll_no){
+    this.name=name;
+    this.roll_no=roll_no;
+ }
      
-    public void introduce(){
+    public  void introduce(){
         System.out.println("name is "+name+" roll number is "+roll_no+" address is "+address);
       
     }
-    public void fun(){
+    public static void fun(){
         System.out.println("playing cricket");
+    }
+    static{
+        System.out.println("welcome to gla");
     }
 
 }
