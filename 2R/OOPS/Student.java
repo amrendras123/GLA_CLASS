@@ -3,7 +3,7 @@
  */
 public class Student {
 
-   String name;
+     String name;
     int roll_no;
     String address;
     static int count;

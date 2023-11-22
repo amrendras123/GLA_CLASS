@@ -6,7 +6,8 @@ public class Main {
         //  p1.fun();
 
         //case2
-        // P p1=new C();
+        P p1=new C();
+        p1.fun();
         // //typecasting ((C)(p1)).d
         // System.out.println(((C)(p1)).d);
         // System.out.println(((C)(p1)).d2);
@@ -15,10 +16,10 @@ public class Main {
         // p1.fun1();
 
         //case-3
-        // C c1=new P(); not possible
+    //     // C c1=new P(); not possible
         
-     //case -4
-        C c1=new C();
+    //  //case -4
+    //     C c1=new C();
 
 
 

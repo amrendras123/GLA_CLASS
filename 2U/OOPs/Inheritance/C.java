@@ -1,11 +1,15 @@
 public class C extends P{
 
-    public C(String name) {
-        super(name);
-        
+    int d=20;
+    int d2=2;
+    @Override
+    public void fun(){
+        System.out.println("fun in C");
     }
-
-    int d1=20;
+    
+    public void fun2(){
+        System.out.println("fun2 in C");
+    }
     
    
 }

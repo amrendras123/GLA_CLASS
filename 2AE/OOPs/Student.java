@@ -29,18 +29,6 @@ static{
         
         System.out.println(name+" have fun");
      }
-     
-
-
-
-
-
-
-
-
-
-
-
    
     public String getName() {
         return name;
