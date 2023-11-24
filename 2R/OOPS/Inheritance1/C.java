@@ -1,6 +1,5 @@
 class C extends P{
    
-
 	int d=20;
 	int d2=2;
    @Override
@@ -12,17 +11,8 @@ class C extends P{
 		System.out.println("fun1 in C");
 	}
 	
-
-
-
-
-
-
-
-
 	 // public C(String name) {
-	// 	super(name);
-		
+	// 	super(name);	
 	// }
     
 }
